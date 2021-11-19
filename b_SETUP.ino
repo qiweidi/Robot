@@ -19,18 +19,22 @@ void setup()
   //Put Robot in Neutral Position
   centerPosition(); //neutral position
   
-  //Blink LED 5 times
+   //Blink LED 5 times
   for(int i = 0; i < 5 ; i++)
   {ledBlink();}
   
-  delay(4000);   //delay 4 seconds
+  delay(1000);   //delay 4 seconds
   
   //Move Forward
-  //for( int i = 0; i<300 ; i++ ) 
- //{forward();
- //}
- delay(500);
- 
+  for( int i = 0; i<10 ; i++ ) 
+ {forward();
+  }
+
+   for( int i = 0; i<10 ; i++ ) 
+ {handOut();
+  }
+ delay(5000);
+
  // back to neutral 
   centerPosition();
 }
