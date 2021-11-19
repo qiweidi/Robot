@@ -27,11 +27,11 @@ int leftEye = 7; //attaches LED to digital pin 7
 // with hips also straight and with both hands pointing down
 // change the value below so that your robot is in neutral position
 int leftAnklePos = 100;  
-int rightAnklePos = 115;
+int rightAnklePos = 120;
 int leftHipPos = 95;
 int rightHipPos = 120;
-int leftShoulderPos = 90;
-int rightShoulderPos = 0;
+int leftShoulderPos = 0;
+int rightShoulderPos = 180;
 
 //Other Variables
 int forDelay = 15; //delay of movement of each single motor
