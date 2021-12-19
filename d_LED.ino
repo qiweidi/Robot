@@ -1,11 +1,3 @@
-/*******LED FUNCTIONS******************************************************************/
-
-//Turns on Both LEDs
-void ledOn()
-{
- digitalWrite(rightEye, HIGH);
- digitalWrite(leftEye, HIGH);
-}//end ledOn()
 
 /********************************************/
 
