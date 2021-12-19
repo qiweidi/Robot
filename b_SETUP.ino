@@ -1,4 +1,3 @@
-/************SETUP********************************************************************/
 
 void setup() 
 { 
@@ -19,22 +18,26 @@ void setup()
   //Put Robot in Neutral Position
   centerPosition(); //neutral position
   
-   //Blink LED 5 times
-  for(int i = 0; i < 5 ; i++)
-  {ledBlink();}
+  //Blink LED 5 times
+  //for(int i = 0; i < 5 ; i++)
+  //{ledBlink();}
   
-  delay(1000);   //delay 4 seconds
+  //delay(1000);   //delay 1 seconds
   
   //Move Forward
-  for( int i = 0; i<10 ; i++ ) 
- {forward();
-  }
+  //for( int i = 0; i<20 ; i++ ) 
+ //{forward();
+  //}
 
-   for( int i = 0; i<10 ; i++ ) 
- {handOut();
-  }
- delay(5000);
+   //for( int i = 0; i<10 ; i++ ) 
+ //{handOut();
+  //}
+ //delay(2000);
 
+ //for( int i = 0; i<10 ; i++ ) 
+ //{DANCE();
+ //}
+//delay(1000);
  // back to neutral 
-  centerPosition();
+  //centerPosition();
 }
