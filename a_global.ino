@@ -1,10 +1,3 @@
-
-/**************************************************************************************
-Arduino 6DOF Biped
-Written by : qrbx
-Website: www.youtube.com/qrbx
-*************************************************************************************/
-
 // Include servo library
 #include <Servo.h> 
 
@@ -30,15 +23,16 @@ int leftAnklePos = 100;
 int rightAnklePos = 120;
 int leftHipPos = 95;
 int rightHipPos = 120;
-int leftShoulderPos = 0;
-int rightShoulderPos = 180;
+int leftShoulderPos = 40;
+int rightShoulderPos = 150;
 
 //Other Variables
-int forDelay = 15; //delay of movement of each single motor
-int delayOne = 15; //transistion delay from one motor to the next
+int forDelay = 10; //delay of movement of each single motor
+int delayOne = 10; //transistion delay from one motor to the next
 boolean firstTime = true;           
 
 //Function prototypes 
 void centerPosition();
 void ledBlink();
 void forward();
+void DANCE();
